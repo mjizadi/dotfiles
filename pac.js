@@ -3,6 +3,7 @@ var V2Ray = "SOCKS5 127.0.0.1:1081; SOCKS 127.0.0.1:1081; DIRECT;";
 var domains = [
     // Youtube
     "youtube.com",
+    "googlevideo.com",
 
     // Twitter
     "twitter.com",

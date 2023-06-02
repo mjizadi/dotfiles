@@ -1,3 +1,6 @@
+" MJ's personal vim configuration "
+"---------------------------------"
+
 " Indentation "
 set tabstop=4
 set softtabstop=4
@@ -30,4 +33,12 @@ endif
 
 set termguicolors
 colorscheme desert
+
+" Trailing Whitespace "
+set list
+set listchars=tab:.\ ,trail:. " TODO: tab not working "
+
+" Keep curser away from the edges while scrolling! "
+set scrolloff=8
+set sidescrolloff=8
 
