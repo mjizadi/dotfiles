@@ -1,0 +1,8 @@
+[user]
+	name = MJ Izadi
+	email = m.j.izadi@gmail.com
+[credential]
+	helper = store
+[core]
+	autocrlf = input
+	pager = delta
