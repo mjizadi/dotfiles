@@ -42,3 +42,6 @@ set listchars=tab:.\ ,trail:. " TODO: tab not working "
 set scrolloff=8
 set sidescrolloff=8
 
+" Fuzzy Find with fzf "
+
+set rtp+=/opt/homebrew/opt/fzf

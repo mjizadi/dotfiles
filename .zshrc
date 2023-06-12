@@ -113,3 +113,9 @@ autoload bashcompinit && bashcompinit
 
 eval $(thefuck --alias)
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias ls="exa"
+alias cat="bat -p"
+alias grep="rg"

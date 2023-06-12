@@ -5,6 +5,9 @@ var domains = [
     "youtube.com",
     "googlevideo.com",
 
+    // Google
+    "notifications.google.com"
+
     // Twitter
     "twitter.com",
 ];
