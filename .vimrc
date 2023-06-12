@@ -32,7 +32,7 @@ if !has('gui_running')
 endif
 
 set termguicolors
-colorscheme desert
+colorscheme habamax
 
 " Trailing Whitespace "
 set list
