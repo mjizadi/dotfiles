@@ -116,6 +116,10 @@ eval $(thefuck --alias)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+alias vi="nvim"
+alias vim="nvim"
 alias ls="exa"
 alias cat="bat -p"
 alias grep="rg"
+alias du="duf"
+alias df="ncdu"
