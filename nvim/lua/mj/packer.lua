@@ -44,4 +44,7 @@ return require('packer').startup(function(use)
 	  run = ":MasonUpdate" -- :MasonUpdate updates registry contents
   }
 
+  use('nvim-tree/nvim-tree.lua')
+  use('nvim-tree/nvim-web-devicons')
+
 end)
