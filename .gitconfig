@@ -2,7 +2,7 @@
 	name = MJ Izadi
 	email = m.j.izadi@gmail.com
 [credential]
-	helper = store
+	helper = osxkeychain
 [core]
 	autocrlf = input
 	pager = delta

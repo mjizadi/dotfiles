@@ -115,6 +115,7 @@ eval $(thefuck --alias)
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPS="--extended"
 
 alias vi="nvim"
 alias vim="nvim"
@@ -123,3 +124,5 @@ alias cat="bat -p"
 alias grep="rg"
 alias du="duf"
 alias df="ncdu"
+
+export PATH=$(brew --prefix openssh)/bin:$PATH

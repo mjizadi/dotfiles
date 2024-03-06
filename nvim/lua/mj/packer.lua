@@ -46,5 +46,9 @@ return require('packer').startup(function(use)
 
   use('nvim-tree/nvim-tree.lua')
   use('nvim-tree/nvim-web-devicons')
+  use('vim-airline/vim-airline')
+  use('vim-airline/vim-airline-themes')
+  use('liuchengxu/vim-which-key')
+  use('mfussenegger/nvim-jdtls')
 
 end)
