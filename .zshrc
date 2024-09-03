@@ -114,6 +114,7 @@ autoload bashcompinit && bashcompinit
 eval $(thefuck --alias)
 
 
+source <(fzf --zsh)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_OPS="--extended"
 
