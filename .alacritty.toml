@@ -3,10 +3,6 @@ size = 14
 normal.family = "JetBrainsMono Nerd Font"
 
 [window]
-decorations = "Buttonless"
-opacity = 0.3
-blur = true
-
 option_as_alt = "Both"
 
 [window.padding]
