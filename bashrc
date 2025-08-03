@@ -1,5 +1,5 @@
 # PATH updates
-export PATH="/opt/homebrew/bin:/opt/homebrew/opt/mysql-client/bin:$HOME/bin:$PATH"
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/opt/mysql-client/bin:$HOME/bin:$PATH"
 export PATH="$PATH:/Users/mj/Library/Application Support/JetBrains/Toolbox/scripts"
 
 # Set to superior editing mode
@@ -25,3 +25,6 @@ eval $(thefuck --alias)
 
 # Starship
 eval "$(starship init bash)"
+
+# Task Completion
+eval "$(task --completion bash)"
